@@ -32,7 +32,7 @@ The full description of each task is given in [tasks.md](./tasks.md)
    ```
    git checkout -b your-branch-name
    ```
-   Replace `your-branch-name` with <your name>_solution, like `iva_solution`.
+   Replace `your-branch-name` with &lt;your name&gt;_solution, like `iva_solution`.
 
 2. **Verify** that you are in your new branch:
    ```
