@@ -5,13 +5,13 @@
 import re
 
 # 1. Email Anonymizer
-def email_anonymizer(text):
+def anonymize_emails(text):
     """Replaces email addresses with '[email]'."""
     email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
     return re.sub(email_pattern, '[email]', text)
 
 # 2. Date Formatter
-def date_formatter(text):
+def format_date(text):
     """Converts dates to 'YYYY-MM-DD' format."""
     # Patterns for different date formats
     date_patterns = [
